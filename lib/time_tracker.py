@@ -1,7 +1,7 @@
 import time
 from functools import wraps
 
-time_tracker_global_entering_times = []
+_time_tracker_global_entering_times = []
 _time_tracker_global_total_times = [0]
 
 
